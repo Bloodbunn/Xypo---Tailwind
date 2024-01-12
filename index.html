@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+
+</head>
+
+<body class="p-0 m-0">
+
+    <!--__________________Header_____________-->
+
+    <section id="home" class="bg-[url('../images/background.png')] max-md:bg-none bg-cover bg-center h-svh">
+        <div class="mx-24 max-md:mx-12">
+            <div class="max-md:max-w-max max-md:mx-auto">
+                <img src="images/logo.png" class="w-24 max-md:w-20 pt-8 max-md:pt-2">
+                <div class=" mt-36 max-md:mt-24 max-w-96">
+                    <h1 class="text-4xl max-md:text-3xl font-bold mb-4 ">The perpose is to <br
+                            class="max-md:hidden">teach, bring learning to people</h1>
+                    <span class="w-3 h-3 my-3 bg-red-400 inline-block"></span>
+                    <p class="text-sm text-gray-500 leading-5 mb-4">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humor, or randomized words which don't even look slightly
+                        believable.</p>
+                    <button class="bg-white text-black border-2 border-red-400 px-4 py-2 font-bold text-sm">Read
+                        More</button>
+
+                    <div class="leading-[8px] mt-6">
+                        <span class="w-4 h-4  bg-red-400 inline-block"></span> <br>
+                        <span class="h-[2px] w-20 inline-block bg-red-400"></span> <br>
+                        <span class="h-[2px] w-10 inline-block bg-red-400"></span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <!--______________Nav_____________-->
+
+
+    <nav class="fixed w-60 h-svh -right-60 max-md:w-40 top-0 bg-red-400 z-10 transition-all duration-500" id="menu">
+        <ul class="space-y-9 mt-10 mx-4 text-xl text-white uppercase">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#offer">Offer</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+
+
+        </ul>
+    </nav>
+    <button class="fixed top-8 right-9 max-md:top-2 max-md:right-2 z-10" id="btn" onclick="toggle()"><img
+            src="images/menu.png" class="w-12 max-md:w-9 h-12 max-md:h-9"></button>
+
+    <!--______________________side bar for social media_______________-->
+
+    <section class="fixed left-0 top-0 w-10 h-svh flex flex-col justify-center items-left">
+        <div class="flex flex-col gap-5 ml-3">
+            <a href=""><img src="images/facebook.png" class="w-5 h-5 max-md:w-4 max-md:h-4"></a>
+            <a href=""><img src="images/instagram.png" class="w-5 h-5 max-md:w-4 max-md:h-4"></a>
+            <a href=""><img src="images/linkedin.png" class="w-5 h-5 max-md:w-4 max-md:h-4"></a>
+            <a href=""><img src="images/twitter.png" class="w-5 h-5 max-md:w-4 max-md:h-4"></a>
+        </div>
+    </section>
+
+    <!--_________________About us__________-->
+
+    <section id="about" class="flex flex-wrap max-md:flex-col max-md:items-center text-left mt-24 max-md:mt-16">
+
+        <div class="flex-1">
+            <img src="images/about.png" class="w-full ">
+        </div>
+        <div class="flex-1 mx-12">
+            <div class="max-w-md">
+                <h2 class="text-2xl font-bold">About Us</h2>
+                <span class="w-3 h-3 my-3 bg-red-400 inline-block"></span>
+                <p class="max-md:leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+                <div class="leading-[8px] my-6">
+                    <span class="w-4 h-4  bg-red-400 inline-block"></span> <br>
+                    <span class="h-[2px] w-20 inline-block bg-red-400"></span> <br>
+                    <span class="h-[2px] w-10 inline-block bg-red-400"></span>
+                </div>
+                <p class="text-xl font-bold max-md:leading-6">"One does not establish a dictatorship in order to
+                    safeguard a revolution;
+                    one makes the revolution in order to establish the dictatorship."</p>
+                <span class="text-xl text-gray-500 font-bold italic mt-2">George Orwell</span>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--_____________features____________-->
+
+    <section id="features" class="mt-28 max-md:mt-20">
+        <div class="flex flex-wrap justify-center max-md:flex-col max-md:space-y-5 mx-auto max-md:mx-12 max-w-[80%]">
+            <div class="flex-1 space-y-3 text-center ">
+                <img src="images/pic-1.png" class="w-24 mx-auto">
+                <h3 class="font-semibold text-xl">Learn Anywhere</h3>
+                <p class="leading-5">Switch between your computer, <br> tablet or mobile device</p>
+            </div>
+            <div class="flex-1 space-y-3 text-center">
+                <img src="images/pic-2.png" class="w-24 mx-auto">
+                <h3 class="font-semibold text-xl">Expert Teachers</h3>
+                <p class="leading-5">Learn from industry experts who are passionate about teaching</p>
+            </div>
+            <div class="flex-1 space-y-3 text-center">
+                <img src="images/pic-3.png" class="w-24 mx-auto">
+                <h3 class="font-semibold text-xl">Unlimited Access</h3>
+                <p class="leading-5"> Choose what you'd like to learn <br> from our extensive subscrition library</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center max-md:flex-col items-center mt-14 max-md:mt-10 gap-5">
+            <div class="leading-[8px] text-left">
+                <span class="w-4 h-4  bg-red-400 inline-block"></span> <br>
+                <span class="h-[2px] w-20 inline-block bg-red-400"></span> <br>
+                <span class="h-[2px] w-10 inline-block bg-red-400"></span>
+            </div>
+
+            <button class="bg-white text-black border-2 border-red-400 px-4 py-2 font-bold text-sm">Start Free
+                Trial</button>
+        </div>
+
+    </section>
+
+
+    <!--____________courses___________-->
+
+
+    <section id="courses"
+        class="flex text-left max-md:flex-col max-md:items-center mt-32 mx-24 max-md:mx-12 max-md:gap-5">
+
+        <div class="flex-1">
+
+            <div class="max-w-sm mx-auto">
+                <h2 class="text-2xl font-bold">Brouse Our Top </br>
+                    Courses</h2>
+                <span class="w-3 h-3 my-3 bg-red-400 inline-block"></span>
+                <p>Contrary to popular belief, lorem ipsum is not sporadic text, it has roots in ancient latin. Making
+                    some of the words over 2000 years old.</p>
+                <button class="bg-white text-black border-2 border-red-400 px-4 py-3 my-3 font-bold text-sm">View All
+                    Courses</button>
+                <div class="leading-[8px] my-5">
+                    <span class="w-4 h-4  bg-red-400 inline-block"></span> <br>
+                    <span class="h-[2px] w-20 inline-block bg-red-400"></span> <br>
+                    <span class="h-[2px] w-10 inline-block bg-red-400"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex-1 ">
+            <img src="images/course.png" class="">
+        </div>
+    </section>
+
+
+    <!--___________offer__________-->
+
+    <section id="offer" class="flex text-left max-md:flex-col-reverse max-md:items-center mt-24 max-md:mx-12">
+        <div class="flex-1">
+            <img src="images/about.png" class="w-full ">
+        </div>
+        <div class="flex-1">
+            <div class="max-w-md">
+                <h2 class="text-3xl font-bold">
+                    Limitless Learning </br>
+                    Limitless Possibilities</h2>
+                <span class="w-3 h-3 my-3 bg-red-400 inline-block"></span>
+                <p class="leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. </p>
+                <button class="bg-white text-black border-2 border-red-400 px-4 py-3 mt-7 font-bold text-sm">Start Free
+                    Trial</button>
+
+                <div class="leading-[8px] mt-7">
+                    <span class="w-4 h-4  bg-red-400 inline-block"></span> <br>
+                    <span class="h-[2px] w-20 inline-block bg-red-400"></span> <br>
+                    <span class="h-[2px] w-10 inline-block bg-red-400"></span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--________________Contact Form______________-->
+
+    <section id="contact"
+        class="mt-24 max-md:mt-16 mx-24 max-md:mx-12 flex items-center justify-center max-md:flex-col text-left">
+        <div class="flex-1">
+            <h2 class="text-3xl font-bold leading-7 max-md:leading-8 mb-8 max-md:mb-5">Sign up to join <br
+                    class="max-md:hidden">
+                our learning community</h2>
+            <form action="" class="w-2/3 max-md:w-full space-y-2 ">
+                <input type="text" placeholder="Enter Name"
+                    class="w-full py-2 px-2 border-2 border-red-400 bg-transparent">
+                <input type="email" placeholder="Enter Email Address"
+                    class="w-full py-2 px-2 border-2 border-red-400 bg-transparent">
+                <input type="password" placeholder="Enter Password"
+                    class="w-full py-2 px-2 border-2 border-red-400 bg-transparent">
+                <div class="flex gap-2">
+                    <button
+                        class="bg-white text-black border-2 border-red-400 flex-1  px-4 max-md:py-1 py-3 mt-2 font-bold text-sm inline-block">Sign
+                        Up</button>
+                    <button
+                        class="bg-white text-black border-2 border-red-400 flex-1  px-4 max-md:py-1 py-3 mt-2 font-bold text-sm inline-block">View
+                        All Courses</button>
+                </div>
+
+            </form>
+            <div class="leading-[8px] mt-7 max-md:my-7">
+                <span class="w-4 h-4  bg-red-400 inline-block"></span> <br>
+                <span class="h-[2px] w-20 inline-block bg-red-400"></span> <br>
+                <span class="h-[2px] w-10 inline-block bg-red-400"></span>
+            </div>
+        </div>
+        <div class="flex-1">
+            <img src="images/contact.png" class="w-full">
+        </div>
+    </section>
+
+
+    <!--_____________Footer____________-->
+
+    <section
+        class="mt-24 mx-24 max-md:mx-12 flex flex-wrap max-md:flex-col max-md:gap-5 justify-center items-end border-t-2 border-red-400 py-5 ">
+        <div class="flex-1">
+            <div class="flex flex-wrap items-center justify-between text-left ">
+                <ul class="max-md:basis-1/2">
+                    <h2 class="text-base text-red-950 mb-3 font-bold">Products</h2>
+                    <li class="text-sm text-gray-700"><a href="">Our Plan</a></li>
+                    <li class="text-sm text-gray-700"><a href="">Free Trial</a></li>
+                </ul>
+                <ul class="max-md:basis-1/2">
+                    <h2 class="text-base text-red-950 mb-3 font-bold">About Us</h2>
+                    <li class="text-sm text-gray-700"><a href="">Free Demo</a></li>
+                    <li class="text-sm text-gray-700"><a href="">FAQs</a></li>
+                </ul>
+                <ul class="max-md:basis-1/2 max-md:mt-4">
+                    <h2 class="text-base text-red-950 mb-3 font-bold">Support</h2>
+                    <li class="text-sm text-gray-700"><a href="">Features</a></li>
+                    <li class="text-sm text-gray-700"><a href="">Contact Us</a></li>
+                </ul>
+                <ul class="max-md:basis-1/2 max-md:mt-4">
+                    <h2 class="text-base text-red-950 mb-3 font-bold">Explore</h2>
+                    <li class="text-sm text-gray-700"><a href="">Find A Non-Profit</a></li>
+                    <li class="text-sm text-gray-700"><a href="">Corporate Solution</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="flex-1">
+            <div class="flex justify-around max-md:gap-6 items-end ">
+                <div class="basis-1/3 max-md:basis-1/2">
+                    <span class="inline-block text-sm">support@xypo.com</span> <br>
+                    <span class="inline-block text-sm">Copyright 2024</span>
+                </div>
+
+                <div class="basis-1/3 max-md:basis-1/2">
+                    <a href=""><img src="images/logo.png" class="w-24 max-md:w-14"></a>
+                    <button
+                        class="bg-white text-black border-2 border-red-400  px-10 py-2 max-md:px-5 max-md:py-1 mt-2 font-bold text-sm inline-block">English</button>
+                </div>
+
+            </div>
+    </section>
+
+
+
+    <script>
+        var btn = document.getElementById("btn");
+        var menu = document.getElementById("menu");
+
+        function toggle() {
+            if (menu.classList.contains("-right-60")) {
+                menu.classList.remove("-right-60");
+                menu.classList.add("right-0");
+            } else {
+                menu.classList.remove("right-0");
+                menu.classList.add("-right-60");
+            }
+        }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 500,
+            speedAsDuration: true
+        });
+    </script>
+    <!--if you don't give ijline block to span, the height and width won't work-->
+    <!--if you putt the menu button before the nav, you have to give it a higher z index. if you place it after it, giving it the same z index
+    will still make it appear on top of it.-->
+    <!--the last part of the javascript is an external plugin, it is related to the script link added
+    below the title.-->
+    <!--so regarding the nav, its width is 60 so for relatie positioning the right must negative 60.
+    for the max-md we made the width 40. but we don't need to modifity the right in either the classes or
+the javacript. because the negative 60 will hide the 40 too as it is smaller, and when the right becomes
+0 after clicking on the button, it will completely come intow view and wiill be pressed to the right side.
+this is different than that type of nav where we set the max height to 0 and then set it to a different height when
+we click on the button. in that instance, if we have different height for max-md, the javascirpt needs to change
+also. but we don't need that there either as the max-height will be content wrap and the content are not that
+big in any case.
+remembrer the nav types:
+1. extra anchor tags that are hidden on big screens.
+2. absolute positiongin which have two types:
+a. by making it off the screen and then the positioning through right and top stuff just like here.
+b. by using max height. setting it to zero and then to a different big value.-->
+</body>
+
+</html>
